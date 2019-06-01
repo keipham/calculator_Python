@@ -2,7 +2,7 @@
 
 from tkinter import * 
 import math
-
+#Tk class is used to create a root window. 
 fenetre = Tk()
 
 value = StringVar()
@@ -178,7 +178,7 @@ Button(fenetre, text='3', borderwidth=1, fg="green", command=three).grid(row=4, 
 Button(fenetre, text='-', borderwidth=1, command=minus).grid(row=4, column=7, sticky=W+E+N+S) 
 
 Button(fenetre, text='Ans', borderwidth=1).grid(row=5, column=1, sticky=W+E+N+S) 
-Button(fenetre, text='EXP', borderwidth=1, command=EXP).grid(row=5, column=2, sticky=W+E+N+S) 
+# Button(fenetre, text='EXP', borderwidth=1, command=EXP).grid(row=5, column=2, sticky=W+E+N+S) 
 Button(fenetre, text='²', borderwidth=1, command=square).grid(row=5, column=3, sticky=W+E+N+S)
 Button(fenetre, text='0', borderwidth=1, fg="green", command=zero).grid(row=5, column=4, sticky=W+E+N+S)
 Button(fenetre, text='.', borderwidth=1).grid(row=5, column=5, sticky=W+E+N+S)
